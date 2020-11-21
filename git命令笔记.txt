@@ -1,0 +1,32 @@
+工作目录》暂存区》本地仓库
+	如果将暂存区文件放入本地仓库，则暂存区文件就空了
+
+
+工作目录：
+	被Git管理的项目目录
+暂存区：
+	临时存放被修改的文件
+本地仓库：
+	用于存储提交的记录
+回退：
+	可以从  暂存区--》工作目录；     
+	也可以从   本地仓库--》工作目录
+
+
+git config --list
+屏幕显示不全，带有（end）,按q键结束
+
+设置用户名和邮箱
+	git config --global  user.name  【用户名】
+	git config --global   user.email   【邮箱名称】
+	git config --list	查看所有配置
+
+git 管理当前目录（转换为工作目录）
+	git init
+
+查看当前目录文件状态（untrack 未被跟踪的文件）
+	git status
+
+跟踪某文件（放入到暂存区）
+	git add 【文件名】
+
