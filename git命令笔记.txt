@@ -33,3 +33,5 @@ git 管理当前目录（转换为工作目录）
 提交到本地仓库
 	git commit -m 【备注说明】
 
+查看 git 日志
+	git log
