@@ -30,8 +30,30 @@ git 管理当前目录（转换为工作目录）
 跟踪某文件（放入到暂存区）
 	git add 【文件名】
 
-提交到本地仓库
+从暂存区提交到本地仓库
 	git commit -m 【备注说明】
 
 查看 git 日志
 	git log
+
+向本地仓库中提取信息（从本地仓库恢复到工作目录）
+	git reset --hard  【编号】
+
+查看所有提交及恢复日志
+	git reflog
+
+从暂存区删除文件
+	git rm --cached 【文件名】
+
+从暂存区中恢复文件
+	git checkout 【文件名】
+
+查看所有分支
+	git branch
+	
+创建分支
+	git branch 分支名称
+	
+切换分支
+	git checkout 分支名称
+
